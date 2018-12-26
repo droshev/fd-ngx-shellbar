@@ -10,4 +10,14 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## deploy gh-page
 
-`ng build --prod --base-href "https://droshev.github.io/fd-ngx-shellbar/"`
+One time install
+`npm install -g angular-cli-ghpages`
+
+for deploying
+
+`ng build`
+`ngh --dir="dist/fd-ngx-shellbar" --message="4th deploy try"`
+
+## Website link
+
+`https://droshev.github.io/fd-ngx-shellbar/`
