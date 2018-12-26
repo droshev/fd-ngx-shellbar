@@ -18,6 +18,4 @@ for deploying
 `ng build`
 `ngh --dir="dist/fd-ngx-shellbar" --message="4th deploy try"`
 
-## Website link
-
-`https://droshev.github.io/fd-ngx-shellbar/`
+## [Website link](https://droshev.github.io/fd-ngx-shellbar/)
