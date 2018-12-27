@@ -18,6 +18,4 @@ for deploying
 `ng build --prod --base-href "https://droshev.github.io/fd-ngx-shellbar/"`
 `ngh --dir="dist/fd-ngx-shellbar" --message="new deploy"`
 
-## Website link
-
-`https://droshev.github.io/fd-ngx-shellbar/`
+## [Website link](https://droshev.github.io/fd-ngx-shellbar/)
