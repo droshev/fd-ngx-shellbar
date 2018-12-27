@@ -17,14 +17,6 @@
   <fd-shellbar-subtitle> Subtitle </fd-shellbar-subtitle>
   <fd-copilot></fd-copilot>
   <fd-shellbar-actions [user]="user" [userMenu]="userMenu" [productSwitcher]="productSwitcher">
-    <fd-shellbar-action [label]="'Search'">
-      <fd-search-input
-        [inShellbar]="true"
-        [searchTerms]="searchTerms"
-        [(ngModel)]="searchTerm"
-        [searchFunction]="exampleSearchFunction"
-      ></fd-search-input>
-    </fd-shellbar-action>
     <fd-shellbar-action
       *ngFor="let action of actions"
       [glyph]="action.glyph"
@@ -33,6 +25,14 @@
       [notificationCount]="action.notificationCount"
       [notificationLabel]="action.notificationLabel"
     >
+    </fd-shellbar-action>
+    <fd-shellbar-action [label]="'Search'">
+      <fd-search-input
+        [inShellbar]="true"
+        [searchTerms]="searchTerms"
+        [(ngModel)]="searchTerm"
+        [searchFunction]="exampleSearchFunction"
+      ></fd-search-input>
     </fd-shellbar-action>
   </fd-shellbar-actions>
 </fd-shellbar>

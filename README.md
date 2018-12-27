@@ -15,8 +15,8 @@ One time install
 
 for deploying
 
-`ng build`
-`ngh --dir="dist/fd-ngx-shellbar" --message="4th deploy try"`
+`ng build --prod --base-href "https://droshev.github.io/fd-ngx-shellbar/"`
+`ngh --dir="dist/fd-ngx-shellbar" --message="new deploy"`
 
 ## Website link
 
